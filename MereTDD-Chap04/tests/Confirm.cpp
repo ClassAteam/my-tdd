@@ -14,12 +14,12 @@ TEST("Test passing grades")
     bool result = isPassingGrade(0);
     if (result)
     {
-        throw 1;
+        throw MereTDD::BoolConfirmException(false, 17);
     }
 
     result = isPassingGrade(100);
     if (not result)
     {
-        throw 1;
+        throw MereTDD::BoolConfirmException(true, 23);
     }
 }
