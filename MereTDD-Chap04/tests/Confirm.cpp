@@ -1,25 +1,38 @@
 #include "../Test.h"
 
-bool isPassingGrade (int value)
+bool isNegative (int value)
 {
-    return true;
+    return value < 0;
+}
+
+int multiplyBy2 (int value)
+{
+    return value * 2;
 }
 
 TEST("Test will pass without any confirms")
 {
 }
 
-TEST("Test passing grades")
+TEST("Test bool confirms")
 {
-    bool result = isPassingGrade(0);
-    if (result)
-    {
-        throw MereTDD::BoolConfirmException(false, 17);
-    }
+    bool result = isNegative(0);
 
-    result = isPassingGrade(100);
-    if (not result)
-    {
-        throw MereTDD::BoolConfirmException(true, 23);
-    }
+    CONFIRM_FALSE(result);
+
+    result = isNegative(-1);
+
+    CONFIRM_TRUE(result);
+}
+
+TEST("Test int confirms")
+{
+    int result = multiplyBy2(0);
+    CONFIRM(0, result);
+
+    result = multiplyBy2(1);
+    CONFIRM(2, result);
+
+    result = multiplyBy2(-1);
+    CONFIRM(-2, result);
 }
