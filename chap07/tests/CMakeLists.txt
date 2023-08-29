@@ -9,5 +9,6 @@ add_executable(first_test "")
 target_sources(first_test PRIVATE
   Creation.cpp
   Confirm.cpp
+  Setup.cpp
   main.cpp
 )

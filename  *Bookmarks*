@@ -1,0 +1,65 @@
+;;;; Emacs Bookmark Format Version 1;;;; -*- coding: utf-8-emacs; mode: lisp-data -*-
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("runSuite()"
+ (filename . "~/repo/my-tdd/chap07/Test.h")
+ (front-context-string . " runSuite (std::")
+ (rear-context-string . "}\n}\n\ninline bool")
+ (position . 8031)
+ (last-modified 25837 55947 71446 871000))
+("runTest"
+ (filename . "~/repo/my-tdd/chap07/Test.h")
+ (front-context-string . " runTest (std::o")
+ (rear-context-string . "\n};\n\ninline void")
+ (position . 6349)
+ (last-modified 25837 55075 177508 484000))
+("addTestSuite"
+ (filename . "~/repo/my-tdd/chap07/Test.h")
+ (front-context-string . "addTestSuite (st")
+ (rear-context-string . "\n}\n\ninline void ")
+ (position . 3855)
+ (last-modified 25837 52152 924287 410000))
+("getTests() map"
+ (filename . "~/repo/my-tdd/chap07/Test.h")
+ (front-context-string . "inline std::map<")
+ (rear-context-string . "ass TestSuite;\n\n")
+ (position . 3278)
+ (last-modified 25837 49826 684249 533000))
+("TempTable"
+ (filename . "~/repo/my-tdd/chap07/tests/Setup.cpp")
+ (front-context-string . "pTable\n{\npublic:")
+ (rear-context-string . "d;\n};\n\nclass Tem")
+ (position . 1131)
+ (last-modified 25837 45050 535514 696000))
+("TestSuiteSetupAndTeardown"
+ (filename . "~/repo/my-tdd/chap07/Test.h")
+ (front-context-string . " TestSuiteSetupA")
+ (rear-context-string . "ypename T>\nclass")
+ (position . 11496)
+ (last-modified 25837 44867 469474 202000))
+("TestSuite"
+ (filename . "~/repo/my-tdd/chap07/Test.h")
+ (front-context-string . "class TestSuite ")
+ (rear-context-string . "eptionName;\n};\n\n")
+ (position . 6047)
+ (last-modified 25837 44593 929735 359000))
+("addTest"
+ (filename . "~/repo/my-tdd/chap07/Test.h")
+ (front-context-string . "addTest (std::st")
+ (rear-context-string . "\n}\n\ninline void ")
+ (position . 3605)
+ (last-modified 25837 44284 227575 822000))
+("Test"
+ (filename . "~/repo/my-tdd/chap07/Test.h")
+ (front-context-string . "lass Test : publ")
+ (rear-context-string . "mLocation;\n};\n\nc")
+ (position . 5035)
+ (last-modified 25837 44245 160422 102000))
+("TestBase"
+ (filename . "~/repo/my-tdd/chap07/Test.h")
+ (front-context-string . "TestBase\n{\npubli")
+ (rear-context-string . "uite);\n}\n\nclass ")
+ (position . 4131)
+ (last-modified 25837 43418 961240 988000))
+)
